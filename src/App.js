@@ -364,9 +364,9 @@ const PersonalWebsite = () => {
       <div style={styles.maxWidth}>
         {/* Header */}
         <header style={styles.header}>
-          {/* Sostituisci questo URL con il link alla tua foto */}
+          
           <Avatar 
-            photoUrl="ricky.jpeg"
+            photoUrl="ricky.png"
             initials="RM"
             alt="Ricky Marinsalda profile photo"
           />
