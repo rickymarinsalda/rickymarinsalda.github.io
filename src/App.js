@@ -738,17 +738,25 @@ const PersonalWebsite = () => {
           </div>
         </section>
 
-        {/* Supervision Section */}
-        <section id="supervision" style={styles.sectionAlt}>
+     {/* Supervision Section */}
+     <section id="supervision" style={styles.sectionAlt}>
           <div style={styles.maxWidth}>
             <h2 style={styles.sectionTitle}>
               Thesis Supervision
               <div style={styles.sectionTitleUnderline} />
             </h2>
-            <div style={styles.placeholder}>
-              <p style={styles.placeholderText}>
-                Information about supervised bachelor's theses will be updated as I progress in my research career.
-              </p>
+            <div>
+              <div style={styles.experienceItem}>
+                <h3 style={styles.experienceTitle}>Bachelor's Thesis Co-Supervision</h3>
+                <p style={styles.experienceCompany}>University of Pisa - Department of Information Engineering</p>
+                <p style={styles.experienceDate}>Computer Engineering Degree</p>
+                <p style={styles.experienceDescription}>
+                  <strong>Title:</strong> "Creazione di un'applicazione web per la gestione automatizzata di raccolta dati sul benessere di pazienti affetti da malattie croniche"
+                  <br /><br />
+                  <strong>Student:</strong> Sandro Wu<br />
+                  <strong>Supervisors:</strong> Prof. Carlo Vallati, Ing. Francesco Di Rienzo, Ing. Ricky Marinsalda
+                </p>
+              </div>
             </div>
           </div>
         </section>
